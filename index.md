@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-## Hi, I’m Sanaullah
+## Hi, I'm Sanaullah
 
 I am a **Master of Science in Computer Science** student specializing in **Artificial Intelligence**, with a background in **Electrical Engineering** from **Sukkur IBA University**. My academic journey began with embedded systems and automation and gradually evolved toward **AI, robotics, and intelligent systems**.
 
@@ -36,6 +36,7 @@ Two experiences played a key role in my transition to Computer Science:
 ---
 
 ### 🔗 Profiles
-- **GitHub:** https://github.com/sanaullahkhaskheli  
+- **GitHub:** [github.com/Sanaullah-khaskheli](https://github.com/Sanaullah-khaskheli)
+- **LinkedIn:** [linkedin.com/in/sanaullahkhaskheli](https://www.linkedin.com/in/sanaullahkhaskheli)
 
 I am open to **research collaborations, academic discussions, and future PhD opportunities**.
