@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home — Sanaullah Khaskheli</title>
+<meta name="description" content="Sanaullah Khaskheli — MS Computer Science student researching visual SLAM, foundation models, and applied deep learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navrow">
+    <a class="brand" href="/">Sanaullah Khaskheli</a>
+    <nav class="links">
+      <a href="/" class="active">Home</a><a href="/education.html">Education</a><a href="/experience.html">Experience</a><a href="/skills.html">Skills</a><a href="/certificates.html">Certificates</a><a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <section class="hero" style="padding-top:12px;">
+      <h1 class="hero-title">Hi, I'm Sanaullah.</h1>
+      <p class="tagline">
+        MS Computer Science student at Sukkur IBA University, working on visual SLAM and
+        foundation-model applications for mobile robotics. I also teach as a Visiting
+        Faculty member and apply deep learning to problems in medical imaging,
+        agriculture, and IoT security.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">Visual SLAM</span>
+        <span class="tag">Foundation Models</span>
+        <span class="tag">Topological Mapping</span>
+        <span class="tag">IoT Security</span>
+        <span class="tag">Applied Deep Learning</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="mailto:skskhaskheli@gmail.com">Email me</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=hh9lOIQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn" href="https://github.com/Sanaullah-khaskheli" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/sanaullahkhaskheli" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><div class="num">MS</div><div class="label">Computer Science, Sukkur IBA</div></div>
+        <div class="stat"><div class="num">5+</div><div class="label">Papers in progress</div></div>
+        <div class="stat"><div class="num">NTNU</div><div class="label">Research exchange, Norway</div></div>
+        <div class="stat"><div class="num">VF</div><div class="label">Visiting Faculty, CSE Dept.</div></div>
+      </div>
+    </section>
+
+    <section id="story">
+      <h2 class="section-title">My Journey</h2>
+      <div class="card">
+        <p style="font-size:15px;line-height:1.7;">
+          I started out in Electrical Engineering at Sukkur IBA University, with a
+          foundation in embedded systems and automation. Teaching Robotics &amp; AI as
+          an instructor, and later working as a Research Associate on an AI-based flood
+          alert chatbot, pulled me toward machine learning, NLP, and applied AI research
+          &mdash; and eventually into an MS in Computer Science focused on robotics and
+          computer vision.
+        </p>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2 class="section-title">Research</h2>
+      <div class="grid-cards">
+        <div class="card">
+          <h3 class="card-title">Visual SLAM &amp; Topological Mapping</h3>
+          <p>MS thesis on entropy-gated fusion of visual and semantic descriptors for
+            robust topological mapping in mobile robotics, comparing DINOv2, CLIP, and
+            SigLIP across loop-closure and node-selection pipelines.</p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Foundation Model Applications</h3>
+          <p>Benchmarking vision-language and self-supervised foundation models for
+            place recognition and scene understanding under real-world appearance
+            change.</p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">IoT &amp; Industrial Security</h3>
+          <p>Evidential deep learning architectures for zero-day intrusion detection in
+            Industrial IoT, built on Edge-IIoTset with a leave-one-attack-out
+            protocol.</p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Applied Deep Learning</h3>
+          <p>Deep learning applications spanning medical imaging and agricultural
+            monitoring (edge-AI plant health monitoring at NTNU), with an emphasis on
+            deployable pipelines.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tight">
+      <h2 class="section-title">Currently</h2>
+      <div class="card">
+        <p>Visiting Faculty at the Department of Computer System Engineering, Sukkur IBA
+          University &mdash; teaching Digital Signal Processing, Machine Learning, and
+          Cybersecurity &mdash; alongside ongoing MS research on topological mapping.
+          Open to research collaborations, academic discussions, and PhD
+          opportunities.</p>
+      </div>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <div>&copy; <span id="year"></span> Sanaullah Khaskheli. Built with care.</div>
+    <div class="f-links">
+      <a href="https://github.com/Sanaullah-khaskheli">GitHub</a>
+      <a href="https://www.linkedin.com/in/sanaullahkhaskheli">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=hh9lOIQAAAAJ">Scholar</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
