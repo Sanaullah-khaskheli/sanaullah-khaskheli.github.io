@@ -118,7 +118,11 @@ h1.hero-title{font-size:40px;font-weight:800;letter-spacing:-0.02em;margin:0 0 4
   border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;
   background:var(--surface);
 }
-.photo-card img{display:block;width:100%;max-height:420px;object-fit:cover;object-position:center 20%;}
+.photo-card .photo-frame{
+  display:flex;align-items:center;justify-content:center;
+  background:var(--chip);max-height:520px;overflow:hidden;
+}
+.photo-card img{display:block;width:auto;height:auto;max-width:100%;max-height:520px;object-fit:contain;}
 .photo-caption{padding:14px 20px;font-size:13.5px;color:var(--muted);}
 
 .skill-group{margin-bottom:28px;}
