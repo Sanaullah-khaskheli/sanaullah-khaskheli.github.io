@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" type="image/jpeg" href="/assets/profile.jpg">
 </head>
 <body>
 <header class="nav">
@@ -22,29 +23,32 @@
 
 <main class="page">
   <div class="wrap">
-    <section class="hero" style="padding-top:12px;">
-      <h1 class="hero-title">Hi, I'm Sanaullah.</h1>
-      <p class="tagline">
-        MS Computer Science student at Sukkur IBA University, working on visual SLAM and
-        foundation-model applications for mobile robotics. I also teach as a Visiting
-        Faculty member and apply deep learning to problems in medical imaging,
-        agriculture, and IoT security.
-      </p>
-      <div class="hero-tags">
+    <section class="hero hero-with-photo" style="padding-top:12px;">
+      <div class="hero-main">
+        <h1 class="hero-title">Hi, I'm Sanaullah.</h1>
+        <p class="tagline">
+          MS Computer Science student at Sukkur IBA University, working on visual SLAM and
+          foundation-model applications for mobile robotics. I also teach as a Visiting
+          Faculty member and apply deep learning to problems in medical imaging,
+          agriculture, and IoT security.
+        </p>
+      </div>
+      <img class="hero-photo" src="/assets/profile.jpg" alt="Sanaullah Khaskheli">
+      <div class="hero-tags" style="grid-column:1/-1;">
         <span class="tag">Visual SLAM</span>
         <span class="tag">Foundation Models</span>
         <span class="tag">Topological Mapping</span>
         <span class="tag">IoT Security</span>
         <span class="tag">Applied Deep Learning</span>
       </div>
-      <div class="hero-cta">
+      <div class="hero-cta" style="grid-column:1/-1;">
         <a class="btn primary" href="mailto:skskhaskheli@gmail.com">Email me</a>
         <a class="btn" href="https://scholar.google.com/citations?user=hh9lOIQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
         <a class="btn" href="https://github.com/Sanaullah-khaskheli" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/sanaullahkhaskheli" target="_blank" rel="noopener">LinkedIn</a>
       </div>
 
-      <div class="stats">
+      <div class="stats" style="grid-column:1/-1;">
         <div class="stat"><div class="num">MS</div><div class="label">Computer Science, Sukkur IBA</div></div>
         <div class="stat"><div class="num">5+</div><div class="label">Papers in progress</div></div>
         <div class="stat"><div class="num">NTNU</div><div class="label">Research exchange, Norway</div></div>
@@ -93,6 +97,14 @@
             monitoring (edge-AI plant health monitoring at NTNU), with an emphasis on
             deployable pipelines.</p>
         </div>
+      </div>
+    </section>
+
+    <section id="beyond">
+      <h2 class="section-title">Beyond Research</h2>
+      <div class="photo-card">
+        <img src="/assets/preikestolen.jpg" alt="Sanaullah at Preikestolen, Norway, during a cabin trip">
+        <div class="photo-caption">Preikestolen, Norway &mdash; during a cabin trip while on research exchange at NTNU.</div>
       </div>
     </section>
 
